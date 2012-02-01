@@ -1,0 +1,21 @@
+<add>
+
+  <doc>
+    <field name="id">1</field>
+    <field name="name">Lightsaber</field>
+    <field name="price">1000</field>
+  </doc>
+  
+  <doc>
+    <field name="id">2</field>
+    <field name="name">X-Wing</field>
+    <field name="price">200000</field>
+  </doc>
+
+  <doc>
+    <field name="id">3</field>
+    <field name="name">Protocol Droid</field>
+    <field name="price">5000</field>
+  </doc>
+
+</add>

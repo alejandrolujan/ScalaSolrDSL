@@ -1,0 +1,16 @@
+README
+
+This project attempts to offer a simple Scala DSL to access many of Scala's Solr features.
+
+It was build on purpose to read like JPA's API, such as:
+
+MyModelClass.search(P.id between(10 and 12)).and(P.name eq "My Product")
+
+
+This project is built on top of Solr4J, so it suffers from the limitations that library imposes.
+
+Should you have any questions or suggestions, do contact me at andanthor@gmail.com
+
+Cheers,
+
+Alejandro.
