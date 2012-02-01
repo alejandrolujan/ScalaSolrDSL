@@ -1,4 +1,5 @@
-README
+OVERVIEW
+--------
 
 This project attempts to offer a simple Scala DSL to access many of Scala's Solr features.
 
@@ -6,8 +7,21 @@ It was build on purpose to read like JPA's API, such as:
 
 MyModelClass.search(P.id between(10 and 12)).and(P.name eq "My Product")
 
-
 This project is built on top of Solr4J, so it suffers from the limitations that library imposes.
+
+HOW TO USE IT
+-------------
+
+For a quick test drive, follow these steps:
+
+1. Setup your solr installation with the conf/schema.xml file (a simple, 3 field Product schema, look at lines 456-458)
+2. Verify the app.config file and modify as needed
+3. Run the TestSearch.scala file
+
+This should give you a brief overview of how the DSL works, and verify your configuration is correct.
+
+CONTACT ME
+----------
 
 Should you have any questions or suggestions, do contact me at andanthor@gmail.com
 
